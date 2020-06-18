@@ -1,11 +1,4 @@
 
-4 Projects are created for this assignment.
-EED.Data => Database Project
-EED.Integration => SSIS Project
-EED.Test => Test Project
-EED.Web => WebAPI + Angular Project
-
-
 To run in your local machine, you have to change a few configuration.
 1- Please rename your excel to TestData.xlsx and then put the file under C:/Import/ or
 1- Please go to "EED.Integration" Project Change the excel file path of "Excel Connection Manager" under "Connection Managers".
