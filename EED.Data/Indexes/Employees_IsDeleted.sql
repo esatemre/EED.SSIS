@@ -1,0 +1,1 @@
+﻿CREATE INDEX [IX_Employees_IsDeleted] ON [Employees] ([IsDeleted]);

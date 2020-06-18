@@ -1,0 +1,24 @@
+<p><em><a routerLink="/employees">< Back</a></em></p>
+<h1 *ngIf="!employeeId">Create Employee</h1>
+<h1 *ngIf="employeeId">Edit Employee (Id:&nbsp;{{employeeId}})</h1>
+<p *ngIf="!employeeForm"><em>Loading...</em></p>
+<form id="employeeForm" [formGroup]="employeeForm" (ngSubmit)="submitForm()" novalidate>
+  <div class="form-group">
+    <label>First Name</label>
+    <input type="text" class="form-control" formControlName="firstName" maxlength="50">
+  </div>
+  <div class="form-group">
+    <label>Last Name</label>
+    <input type="text" class="form-control" formControlName="lastName" maxlength="50">
+  </div>
+  <div class="form-group">
+    <label>Age</label>
+    <input type="number" class="form-control" formControlName="age">
+  </div>
+  <div class="form-group">
+    <label>Salary</label>
+    <input type="number" class="form-control" formControlName="currentSalary" step="0.01">
+  </div>
+</form>
+<button class="btn btn-primary" type="submit" form="employeeForm">Save</button>
+<button *ngIf="employeeId" class="btn btn-danger ml-4" (click)="deleteEmployee()">Delete</button>
