@@ -1,9 +1,0 @@
-C:\Users\esate\source\repos\EED\EED.Data\bin\Debug\EED.Data.dacpac
-C:\Users\esate\source\repos\EED\EED.Data\bin\Debug\EED.Data.dll
-C:\Users\esate\source\repos\EED\EED.Data\bin\Debug\EED.Data.pdb
-C:\Users\esate\source\repos\EED\EED.Data\obj\Debug\EED.Data.dll
-C:\Users\esate\source\repos\EED\EED.Data\obj\Debug\EED.Data.pdb
-C:\Users\esate\source\repos\EED\EED.Data\obj\Debug\Model.xml
-C:\Users\esate\source\repos\EED\EED.Data\obj\Debug\refactor.xml
-C:\Users\esate\source\repos\EED\EED.Data\obj\Debug\postdeploy.sql
-C:\Users\esate\source\repos\EED\EED.Data\obj\Debug\predeploy.sql
